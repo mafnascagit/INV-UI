@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  display: flex; 
+  justify-content: center; 
+  align-items:center; 
+}
+
+.welcomeMessage { 
+  color: rgba(255,255,255,1); 
+  text-transform: uppercase;
+  margin-top: 50px;
+  font-size: 2.5em; 
+  letter-spacing: 3px;
+  font-weight: 630; 
+  text-shadow: 100px rgba(0,0,0,.3);
+  animation: open 1s alternate;
+}
+
+@keyframes open {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
